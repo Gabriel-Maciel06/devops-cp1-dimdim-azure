@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "descricao": "Salário Mensal - DimDim Tecnologia",
+    "valor": 7500.00,
+    "tipo": "ENTRADA",
+    "categoria": "Salário",
+    "dataTransacao": "2026-08-20T10:00:00"
+  },
+  {
+    "id": 2,
+    "descricao": "Pagamento Aluguel Escritório",
+    "valor": 2200.00,
+    "tipo": "SAIDA",
+    "categoria": "Moradia",
+    "dataTransacao": "2026-08-21T14:30:00"
+  },
+  {
+    "id": 3,
+    "descricao": "Consultoria Cloud Azure DimDim",
+    "valor": 3800.00,
+    "tipo": "ENTRADA",
+    "categoria": "Serviços",
+    "dataTransacao": "2026-08-22T09:15:00"
+  },
+  {
+    "id": 4,
+    "descricao": "Supermercado e Suprimentos",
+    "valor": 850.50,
+    "tipo": "SAIDA",
+    "categoria": "Alimentação",
+    "dataTransacao": "2026-08-23T18:45:00"
+  },
+  {
+    "id": 5,
+    "descricao": "Assinatura Microsoft Azure Cloud",
+    "valor": 420.00,
+    "tipo": "SAIDA",
+    "categoria": "Infraestrutura",
+    "dataTransacao": "2026-08-24T11:20:00"
+  }
+]

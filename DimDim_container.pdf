@@ -1,0 +1,381 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<<
+  /Font <<
+    /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+    /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+    /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+  >>
+>>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 5 0 R /Resources 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2598 >>
+stream
+BT
+/F2 13 Tf
+0.10 0.20 0.50 rg
+1 0 0 1 50 800 Tm
+(FIAP - TECNOLOGIA EM DESENVOLVIMENTO DE SISTEMAS) Tj
+ET
+BT
+/F1 11 Tf
+0.30 0.30 0.30 rg
+1 0 0 1 50 780 Tm
+(DevOps Tools & Cloud Computing - Prof. Joao Menk) Tj
+ET
+0.70 0.70 0.70 RG
+1 w
+50 763 m
+550 763 l
+S
+BT
+/F2 18 Tf
+0.85 0.15 0.20 rg
+1 0 0 1 50 740 Tm
+(1o CHECKPOINT 2o SEMESTRE - PROJETO DIMDIM) Tj
+ET
+BT
+/F2 12 Tf
+0.20 0.20 0.20 rg
+1 0 0 1 50 713 Tm
+(Conteinerizacao de App e Banco em Nuvem no Formato PaaS \(ACR & ACI\)) Tj
+ET
+BT
+/F2 13 Tf
+0.10 0.20 0.50 rg
+1 0 0 1 50 679 Tm
+(INTEGRANTES DO GRUPO:) Tj
+ET
+BT
+/F2 11 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 659 Tm
+(1. Gabriel Maciel Alves de Oliveira \(RM562795\) - Representante) Tj
+ET
+BT
+/F1 11 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 642 Tm
+(2. Vitoria Rodrigues Martins \(RM565160\)) Tj
+ET
+BT
+/F1 11 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 625 Tm
+(3. Augusto Bonomo Junior \(RM565155\)) Tj
+ET
+BT
+/F1 11 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 608 Tm
+(4. Thomas Fontes \(RM562254\)) Tj
+ET
+BT
+/F1 11 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 591 Tm
+(5. Matheus Pereira Molina \(RM563399\)) Tj
+ET
+BT
+/F2 13 Tf
+0.10 0.20 0.50 rg
+1 0 0 1 50 559 Tm
+(LINKS OFICIAIS DE ENTREGA:) Tj
+ET
+BT
+/F2 10.5 Tf
+0.00 0.40 0.80 rg
+1 0 0 1 50 539 Tm
+(Repositorio GitHub: https://github.com/Gabriel-Maciel06/devops-cp1-dimdim-azure) Tj
+ET
+BT
+/F2 10.5 Tf
+0.85 0.15 0.20 rg
+1 0 0 1 50 522 Tm
+(Video de Demonstracao \(YouTube\): [COLE SEU LINK DO VIDEO AQUI]) Tj
+ET
+BT
+/F1 10 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 505 Tm
+(Swagger UI \(Nuvem Azure\): http://app-dimdim-rm562795.brazilsouth.azurecontainer.io:8080/swagger-ui.html) Tj
+ET
+BT
+/F2 13 Tf
+0.10 0.20 0.50 rg
+1 0 0 1 50 474 Tm
+(RESUMO DOS RECURSOS AZURE \(PaaS\):) Tj
+ET
+BT
+/F1 10.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 454 Tm
+(- Resource Group: rg-dimdim-rm562795 \(Regiao: brazilsouth\)) Tj
+ET
+BT
+/F1 10.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 437 Tm
+(- Azure Container Registry \(ACR\): acrdimdim562795.azurecr.io) Tj
+ET
+BT
+/F1 10.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 420 Tm
+(- Imagem DB: acrdimdim562795.azurecr.io/rm562795-dimdim-db:latest) Tj
+ET
+BT
+/F1 10.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 403 Tm
+(- Imagem App: acrdimdim562795.azurecr.io/rm562795-dimdim-app:latest \(Usuario Non-Root\)) Tj
+ET
+BT
+/F1 10.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 386 Tm
+(- ACI Banco de Dados: rm562795-dimdim-db \(PostgreSQL 16 com Azure File Share\)) Tj
+ET
+BT
+/F1 10.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 369 Tm
+(- ACI Aplicacao: rm562795-dimdim-app \(Java 21 / Spring Boot 3.3\)) Tj
+ET
+BT
+/F1 10.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 352 Tm
+(- Storage Account: stdimdim562795 \(Share: db-dimdim-share montado em /var/lib/postgresql/data\)) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 7 0 R /Resources 3 0 R >>
+endobj
+7 0 obj
+<< /Length 3799 >>
+stream
+BT
+/F2 13 Tf
+0.10 0.20 0.50 rg
+1 0 0 1 50 800 Tm
+(1. SCRIPT DDL DAS TABELAS \(PostgreSQL\)) Tj
+ET
+0.70 0.70 0.70 RG
+1 w
+50 780 m
+550 780 l
+S
+BT
+/F2 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 772 Tm
+(CREATE TABLE TB_DIMDIM_TRANSACOES \() Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 757 Tm
+(    ID BIGSERIAL PRIMARY KEY,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 742 Tm
+(    DESCRICAO VARCHAR\(150\) NOT NULL,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 727 Tm
+(    VALOR NUMERIC\(12, 2\) NOT NULL,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 712 Tm
+(    TIPO VARCHAR\(10\) NOT NULL,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 697 Tm
+(    CATEGORIA VARCHAR\(50\) NOT NULL,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 682 Tm
+(    DATA_TRANSACAO TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 667 Tm
+(    CONSTRAINT CK_VALOR_POSITIVO CHECK \(VALOR > 0\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 652 Tm
+(    CONSTRAINT CK_TIPO_VALIDO CHECK \(TIPO IN \('ENTRADA', 'SAIDA'\)\)) Tj
+ET
+BT
+/F2 9.5 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 637 Tm
+(\);) Tj
+ET
+BT
+/F2 13 Tf
+0.10 0.20 0.50 rg
+1 0 0 1 50 607 Tm
+(2. HOW-TO: COMANDOS AZURE CLI DE PROVISIONAMENTO) Tj
+ET
+0.70 0.70 0.70 RG
+1 w
+50 587 m
+550 587 l
+S
+BT
+/F1 9.5 Tf
+0.30 0.30 0.30 rg
+1 0 0 1 50 579 Tm
+(# 1. Criar Grupo de Recursos e Storage Account com File Share) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 564 Tm
+(az group create --name rg-dimdim-rm562795 --location brazilsouth) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 549 Tm
+(az storage account create --name stdimdim562795 --resource-group rg-dimdim-rm562795 --sku Standard_LRS) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 534 Tm
+(az storage share create --name db-dimdim-share --account-name stdimdim562795) Tj
+ET
+BT
+/F1 9.5 Tf
+0.30 0.30 0.30 rg
+1 0 0 1 50 511 Tm
+(# 2. Criar ACR, Realizar Build e Push das Imagens) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 496 Tm
+(az acr create --resource-group rg-dimdim-rm562795 --name acrdimdim562795 --sku Basic --admin-enabled true) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 481 Tm
+(az acr login --name acrdimdim562795) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 466 Tm
+(docker build -t acrdimdim562795.azurecr.io/rm562795-dimdim-db:latest ./db) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 451 Tm
+(docker push acrdimdim562795.azurecr.io/rm562795-dimdim-db:latest) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 436 Tm
+(docker build -t acrdimdim562795.azurecr.io/rm562795-dimdim-app:latest ./app) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 421 Tm
+(docker push acrdimdim562795.azurecr.io/rm562795-dimdim-app:latest) Tj
+ET
+BT
+/F1 9.5 Tf
+0.30 0.30 0.30 rg
+1 0 0 1 50 398 Tm
+(# 3. Criar ACI do Banco de Dados com Persistencia no Azure Files) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 383 Tm
+(az container create --resource-group rg-dimdim-rm562795 --name rm562795-dimdim-db \\) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 368 Tm
+(  --image acrdimdim562795.azurecr.io/rm562795-dimdim-db:latest --ports 5432 --ip-address Public \\) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 353 Tm
+(  --dns-name-label db-dimdim-rm562795 --azure-file-volume-share-name db-dimdim-share ...) Tj
+ET
+BT
+/F1 9.5 Tf
+0.30 0.30 0.30 rg
+1 0 0 1 50 330 Tm
+(# 4. Criar ACI da Aplicacao DimDim \(Non-root user\)) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 315 Tm
+(az container create --resource-group rg-dimdim-rm562795 --name rm562795-dimdim-app \\) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 300 Tm
+(  --image acrdimdim562795.azurecr.io/rm562795-dimdim-app:latest --ports 8080 --ip-address Public \\) Tj
+ET
+BT
+/F1 9 Tf
+0.00 0.00 0.00 rg
+1 0 0 1 50 285 Tm
+(  --dns-name-label app-dimdim-rm562795 --environment-variables SPRING_DATASOURCE_URL=... ...) Tj
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000356 00000 n 
+0000000460 00000 n 
+0000003110 00000 n 
+0000003214 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+7065
+%%EOF

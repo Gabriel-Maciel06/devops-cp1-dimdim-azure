@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  dimdim-db:
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    image: rm562795-dimdim-db:latest
+    container_name: rm562795-dimdim-db
+    restart: always
+    environment:
+      POSTGRES_DB: dimdim_db
+      POSTGRES_USER: dimdim_user
+      POSTGRES_PASSWORD: dimdim_pass123
+    ports:
+      - "5432:5432"
+    volumes:
+      - dimdim_pgdata:/var/lib/postgresql/data
+    networks:
+      - dimdim-net
+
+  dimdim-api:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    image: rm562795-dimdim-app:latest
+    container_name: rm562795-dimdim-app
+    restart: always
+    depends_on:
+      - dimdim-db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://dimdim-db:5432/dimdim_db
+      SPRING_DATASOURCE_USERNAME: dimdim_user
+      SPRING_DATASOURCE_PASSWORD: dimdim_pass123
+    ports:
+      - "8080:8080"
+    networks:
+      - dimdim-net
+
+volumes:
+  dimdim_pgdata:
+
+networks:
+  dimdim-net:
+    driver: bridge
