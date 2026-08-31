@@ -98,6 +98,7 @@ az container create \
   --dns-name-label "${DNS_DB}" \
   --ports 5432 \
   --ip-address Public \
+  --os-type Linux \
   --environment-variables POSTGRES_DB="dimdim_db" POSTGRES_USER="dimdim_user" \
   --secure-environment-variables POSTGRES_PASSWORD="dimdim_pass123" \
   --azure-file-volume-account-name "${STORAGE_ACCOUNT}" \
@@ -123,6 +124,7 @@ az container create \
   --dns-name-label "${DNS_APP}" \
   --ports 8080 \
   --ip-address Public \
+  --os-type Linux \
   --environment-variables \
       SPRING_DATASOURCE_URL="jdbc:postgresql://${DB_FQDN}:5432/dimdim_db" \
       SPRING_DATASOURCE_USERNAME="dimdim_user" \
