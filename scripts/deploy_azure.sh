@@ -66,16 +66,24 @@ echo "ACR Login Server: ${ACR_SERVER}"
 
 # 4. Build e Push das Imagens para o ACR
 echo "\n🔨 [4/7] Realizando Build e Push das Imagens para o ACR com prefixo RM..."
-echo "--> Compilando Imagem do Banco de Dados..."
-docker build -t "${ACR_SERVER}/${DB_IMAGE_TAG}" ./db
-echo "--> Enviando Imagem do Banco para o ACR..."
-az acr login --name "${ACR_NAME}"
-docker push "${ACR_SERVER}/${DB_IMAGE_TAG}"
+if docker info >/dev/null 2>&1; then
+  echo "--> Compilando Imagem do Banco de Dados via Docker local..."
+  docker build -t "${ACR_SERVER}/${DB_IMAGE_TAG}" ./db
+  echo "--> Enviando Imagem do Banco para o ACR..."
+  az acr login --name "${ACR_NAME}"
+  docker push "${ACR_SERVER}/${DB_IMAGE_TAG}"
 
-echo "--> Compilando Imagem do App (Java 21 / Non-root User)..."
-docker build -t "${ACR_SERVER}/${APP_IMAGE_TAG}" ./app
-echo "--> Enviando Imagem do App para o ACR..."
-docker push "${ACR_SERVER}/${APP_IMAGE_TAG}"
+  echo "--> Compilando Imagem do App (Java 21 / Non-root User) via Docker local..."
+  docker build -t "${ACR_SERVER}/${APP_IMAGE_TAG}" ./app
+  echo "--> Enviando Imagem do App para o ACR..."
+  docker push "${ACR_SERVER}/${APP_IMAGE_TAG}"
+else
+  echo "--> Docker local indisponivel. Usando 'az acr build' (Build nativo diretamente na Nuvem Azure)..."
+  echo "--> Compilando Imagem do Banco na Nuvem..."
+  az acr build --registry "${ACR_NAME}" --image "${DB_IMAGE_TAG}" ./db
+  echo "--> Compilando Imagem do App (Java 21 / Non-root User) na Nuvem..."
+  az acr build --registry "${ACR_NAME}" --image "${APP_IMAGE_TAG}" ./app
+fi
 
 # 5. Criação da Instância de Container do Banco de Dados (ACI - PostgreSQL) com Volume Persistente
 echo "\n🛢️ [5/7] Criando Azure Container Instance para o Banco de Dados com Azure Files..."
