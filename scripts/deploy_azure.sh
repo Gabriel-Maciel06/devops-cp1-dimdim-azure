@@ -68,14 +68,14 @@ echo "ACR Login Server: ${ACR_SERVER}"
 # 4. Build e Push das Imagens para o ACR
 echo "\n🔨 [4/7] Realizando Build e Push das Imagens para o ACR com prefixo RM..."
 if docker info >/dev/null 2>&1; then
-  echo "--> Compilando Imagem do Banco de Dados via Docker local..."
-  docker build -t "${ACR_SERVER}/${DB_IMAGE_TAG}" ./db
+  echo "--> Compilando Imagem do Banco de Dados via Docker local (linux/amd64)..."
+  docker build --platform linux/amd64 -t "${ACR_SERVER}/${DB_IMAGE_TAG}" ./db
   echo "--> Enviando Imagem do Banco para o ACR..."
   az acr login --name "${ACR_NAME}"
   docker push "${ACR_SERVER}/${DB_IMAGE_TAG}"
 
-  echo "--> Compilando Imagem do App (Java 21 / Non-root User) via Docker local..."
-  docker build -t "${ACR_SERVER}/${APP_IMAGE_TAG}" ./app
+  echo "--> Compilando Imagem do App (Java 21 / Non-root User / linux/amd64)..."
+  docker build --platform linux/amd64 -t "${ACR_SERVER}/${APP_IMAGE_TAG}" ./app
   echo "--> Enviando Imagem do App para o ACR..."
   docker push "${ACR_SERVER}/${APP_IMAGE_TAG}"
 else
