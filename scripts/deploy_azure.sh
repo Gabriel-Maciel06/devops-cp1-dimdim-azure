@@ -9,7 +9,7 @@ set -e
 
 # Configurações de Variáveis
 RESOURCE_GROUP="rg-dimdim-rm562795"
-LOCATION="brazilsouth"
+LOCATION="chilecentral"
 ACR_NAME="acrdimdim562795"
 STORAGE_ACCOUNT="stdimdim562795"
 SHARE_NAME="db-dimdim-share"

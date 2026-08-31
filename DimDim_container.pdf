@@ -19,7 +19,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 5 0 R /Resources 3 0 R >>
 endobj
 5 0 obj
-<< /Length 2598 >>
+<< /Length 2600 >>
 stream
 BT
 /F2 13 Tf
@@ -108,7 +108,7 @@ BT
 /F1 10 Tf
 0.00 0.00 0.00 rg
 1 0 0 1 50 505 Tm
-(Swagger UI \(Nuvem Azure\): http://app-dimdim-rm562795.brazilsouth.azurecontainer.io:8080/swagger-ui.html) Tj
+(Swagger UI \(Nuvem Azure\): http://app-dimdim-rm562795.chilecentral.azurecontainer.io:8080/swagger-ui.html) Tj
 ET
 BT
 /F2 13 Tf
@@ -120,7 +120,7 @@ BT
 /F1 10.5 Tf
 0.00 0.00 0.00 rg
 1 0 0 1 50 454 Tm
-(- Resource Group: rg-dimdim-rm562795 \(Regiao: brazilsouth\)) Tj
+(- Resource Group: rg-dimdim-rm562795 \(Regiao: chilecentral\)) Tj
 ET
 BT
 /F1 10.5 Tf
@@ -372,10 +372,10 @@ xref
 0000000127 00000 n 
 0000000356 00000 n 
 0000000460 00000 n 
-0000003110 00000 n 
-0000003214 00000 n 
+0000003112 00000 n 
+0000003216 00000 n 
 trailer
 << /Size 8 /Root 1 0 R >>
 startxref
-7065
+7067
 %%EOF

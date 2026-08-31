@@ -64,8 +64,8 @@
 > 4. **Azure Container Instances (ACI):**  
 >    *(Abra a lista de Container Instances no Portal)*  
 >    *"Temos dois ACIs em execução com status 'Running':*  
->    - *`rm562795-dimdim-db`: Container do PostgreSQL na porta 5432, com FQDN `db-dimdim-rm562795.brazilsouth.azurecontainer.io` e com o volume Azure Files montado.*  
->    - *`rm562795-dimdim-app`: Container da aplicação Spring Boot na porta 8080, com FQDN público `app-dimdim-rm562795.brazilsouth.azurecontainer.io`.*  
+>    - *`rm562795-dimdim-db`: Container do PostgreSQL na porta 5432, com FQDN `db-dimdim-rm562795.chilecentral.azurecontainer.io` e com o volume Azure Files montado.*  
+>    - *`rm562795-dimdim-app`: Container da aplicação Spring Boot na porta 8080, com FQDN público `app-dimdim-rm562795.chilecentral.azurecontainer.io`.*  
 >    *(Abra o container do App ➔ clique em **Logs**)*  
 >    *Nos logs do container, podemos ver o Spring Boot 3.3 inicializando o servidor Tomcat na porta 8080 e estabelecendo com sucesso a conexão JDBC com o container do banco PostgreSQL."*
 
@@ -104,13 +104,13 @@
 
 ### 🧪 BLOCO 4: Demonstração Prática do CRUD com SELECT em Tempo Real (08:00 - 12:30)
 **Tela:** Divida a tela ao meio!  
-- **Lado Esquerdo:** Swagger UI na Nuvem (`http://app-dimdim-rm562795.brazilsouth.azurecontainer.io:8080/swagger-ui.html`).  
-- **Lado Direito:** DBeaver / pgAdmin / terminal `psql` conectado ao PostgreSQL na nuvem (`db-dimdim-rm562795.brazilsouth.azurecontainer.io:5432`).
+- **Lado Esquerdo:** Swagger UI na Nuvem (`http://app-dimdim-rm562795.chilecentral.azurecontainer.io:8080/swagger-ui.html`).  
+- **Lado Direito:** DBeaver / pgAdmin / terminal `psql` conectado ao PostgreSQL na nuvem (`db-dimdim-rm562795.chilecentral.azurecontainer.io:5432`).
 
 ```
 ┌──────────────────────────────────────────────┬──────────────────────────────────────────────┐
 │  SWAGGER UI NA NUVEM AZURE (:8080)           │  DBeaver / BANCO POSTGRESQL NA NUVEM (:5432) │
-│  http://app-dimdim-rm562795.brazilsouth...   │  Host: db-dimdim-rm562795.brazilsouth...     │
+│  http://app-dimdim-rm562795.chilecentral...   │  Host: db-dimdim-rm562795.chilecentral...     │
 └──────────────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
 

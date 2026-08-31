@@ -16,7 +16,7 @@
 ## 🔗 Links de Entrega
 - **Repositório GitHub Oficial:** `https://github.com/Gabriel-Maciel06/devops-cp1-dimdim-azure`
 - **Vídeo de Demonstração (YouTube):** `[COLE SEU LINK DO VIDEO AQUI]`
-- **Documentação Swagger UI (Nuvem Azure):** `http://app-dimdim-rm562795.brazilsouth.azurecontainer.io:8080/swagger-ui.html`
+- **Documentação Swagger UI (Nuvem Azure):** `http://app-dimdim-rm562795.chilecentral.azurecontainer.io:8080/swagger-ui.html`
 
 ---
 
@@ -41,7 +41,7 @@ O projeto **DimDim** consiste em uma solução enterprise de **Gestão Financeir
               ▼  (HTTP :8080)         │   │   ┌──────────────────────────────────────────┐   │   │
    ┌─────────────────────────────┐    │   │   │  App Container (Java 21 / Non-Root)      │   │   │
    │  app-dimdim-rm562795        │───-┼───┼──>│  Name: rm562795-dimdim-app               │   │   │
-   │  .brazilsouth.azure...      │    │   │   └────────────────────┬─────────────────────┘   │   │
+   │  .chilecentral.azure...      │    │   │   └────────────────────┬─────────────────────┘   │   │
    └─────────────────────────────┘    │   │                        │ JDBC :5432              │   │
                                       │   │                        ▼                             │
                                       │   │   ┌──────────────────────────────────────────┐   │   │

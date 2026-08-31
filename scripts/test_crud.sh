@@ -6,7 +6,7 @@
 RESOURCE_GROUP="rg-dimdim-rm562795"
 ACI_APP_NAME="rm562795-dimdim-app"
 
-APP_FQDN=$(az container show --resource-group "${RESOURCE_GROUP}" --name "${ACI_APP_NAME}" --query ipAddress.fqdn --output tsv 2>/dev/null || echo "app-dimdim-rm562795.brazilsouth.azurecontainer.io")
+APP_FQDN=$(az container show --resource-group "${RESOURCE_GROUP}" --name "${ACI_APP_NAME}" --query ipAddress.fqdn --output tsv 2>/dev/null || echo "app-dimdim-rm562795.chilecentral.azurecontainer.io")
 BASE_URL="http://${APP_FQDN}:8080/api/transacoes"
 
 echo "==================================================================="
