@@ -54,6 +54,7 @@ echo "\n🏭 [3/7] Criando Azure Container Registry '${ACR_NAME}'..."
 az acr create \
   --resource-group "${RESOURCE_GROUP}" \
   --name "${ACR_NAME}" \
+  --location "${LOCATION}" \
   --sku Basic \
   --admin-enabled true \
   --output table
