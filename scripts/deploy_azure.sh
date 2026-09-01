@@ -88,6 +88,7 @@ fi
 
 # 5. Criação da Instância de Container do Banco de Dados (ACI - PostgreSQL) com Volume Persistente
 echo "\n🛢️ [5/7] Criando Azure Container Instance para o Banco de Dados com Azure Files..."
+az container delete --resource-group "${RESOURCE_GROUP}" --name "${ACI_DB_NAME}" --yes 2>/dev/null || true
 az container create \
   --resource-group "${RESOURCE_GROUP}" \
   --name "${ACI_DB_NAME}" \
@@ -99,7 +100,7 @@ az container create \
   --ports 5432 \
   --ip-address Public \
   --os-type Linux \
-  --environment-variables POSTGRES_DB="dimdim_db" POSTGRES_USER="dimdim_user" \
+  --environment-variables POSTGRES_DB="dimdim_db" POSTGRES_USER="dimdim_user" PGDATA="/var/lib/postgresql/data/pgdata" \
   --secure-environment-variables POSTGRES_PASSWORD="dimdim_pass123" \
   --azure-file-volume-account-name "${STORAGE_ACCOUNT}" \
   --azure-file-volume-account-key "${STORAGE_KEY}" \
@@ -114,6 +115,7 @@ echo "Banco de Dados ACI FQDN: ${DB_FQDN}"
 
 # 6. Criação da Instância de Container da Aplicação (ACI - DimDim API)
 echo "\n🌐 [6/7] Criando Azure Container Instance para o App DimDim..."
+az container delete --resource-group "${RESOURCE_GROUP}" --name "${ACI_APP_NAME}" --yes 2>/dev/null || true
 az container create \
   --resource-group "${RESOURCE_GROUP}" \
   --name "${ACI_APP_NAME}" \
