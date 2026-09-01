@@ -5,7 +5,7 @@
 ---
 
 ## 👥 Integrantes da Equipe
-- **Gabriel Maciel Alves de Oliveira (RM562795)** —
+- **Gabriel Maciel Alves de Oliveira (RM562795)**
 - **Vitória Rodrigues Martins (RM565160)**
 - **Augusto Bonomo Júnior (RM565155)**
 - **Thomas Fontes (RM562254)**

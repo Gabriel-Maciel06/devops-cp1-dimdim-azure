@@ -110,7 +110,7 @@ pdf.add_text("Conteinerizacao de App e Banco em Nuvem no Formato PaaS (ACR & ACI
 pdf.add_space(15)
 
 pdf.add_text("INTEGRANTES DO GRUPO:", size=13, bold=True, color=(0.1, 0.2, 0.5))
-pdf.add_text("1. Gabriel Maciel Alves de Oliveira (RM562795) - Representante", size=11, bold=True)
+pdf.add_text("1. Gabriel Maciel Alves de Oliveira (RM562795)", size=11)
 pdf.add_text("2. Vitoria Rodrigues Martins (RM565160)", size=11)
 pdf.add_text("3. Augusto Bonomo Junior (RM565155)", size=11)
 pdf.add_text("4. Thomas Fontes (RM562254)", size=11)
