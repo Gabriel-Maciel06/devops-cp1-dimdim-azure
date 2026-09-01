@@ -103,8 +103,9 @@
 ---
 
 ### 🧪 BLOCO 4: Demonstração Prática do CRUD com SELECT em Tempo Real (08:00 - 12:30)
-**Tela:** Divida a tela ao meio!  
-- **Lado Esquerdo:** Swagger UI na Nuvem (`http://app-dimdim-rm562795.chilecentral.azurecontainer.io:8080/swagger-ui.html`).  
+- Repositório GitHub: https://github.com/Gabriel-Maciel06/devops-cp1-dimdim-azure
+- Vídeo de Demonstração (YouTube): https://youtu.be/sOJWAZk0AmU?is=WEzSpdxw0hyJ5_0e
+- Swagger UI (Nuvem Azure): http://app-dimdim-rm562795.chilecentral.azurecontainer.io:8080/swagger-ui.html
 - **Lado Direito:** DBeaver / pgAdmin / terminal `psql` conectado ao PostgreSQL na nuvem (`db-dimdim-rm562795.chilecentral.azurecontainer.io:5432`).
 
 ```

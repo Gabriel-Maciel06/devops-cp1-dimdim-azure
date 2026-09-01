@@ -19,7 +19,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 5 0 R /Resources 3 0 R >>
 endobj
 5 0 obj
-<< /Length 2600 >>
+<< /Length 2619 >>
 stream
 BT
 /F2 13 Tf
@@ -102,7 +102,7 @@ BT
 /F2 10.5 Tf
 0.85 0.15 0.20 rg
 1 0 0 1 50 522 Tm
-(Video de Demonstracao \(YouTube\): [COLE SEU LINK DO VIDEO AQUI]) Tj
+(Video de Demonstracao \(YouTube\): https://youtu.be/sOJWAZk0AmU?is=WEzSpdxw0hyJ5_0e) Tj
 ET
 BT
 /F1 10 Tf
@@ -164,7 +164,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 7 0 R /Resources 3 0 R >>
 endobj
 7 0 obj
-<< /Length 3799 >>
+<< /Length 3800 >>
 stream
 BT
 /F2 13 Tf
@@ -258,7 +258,7 @@ BT
 /F1 9 Tf
 0.00 0.00 0.00 rg
 1 0 0 1 50 564 Tm
-(az group create --name rg-dimdim-rm562795 --location brazilsouth) Tj
+(az group create --name rg-dimdim-rm562795 --location chilecentral) Tj
 ET
 BT
 /F1 9 Tf
@@ -372,10 +372,10 @@ xref
 0000000127 00000 n 
 0000000356 00000 n 
 0000000460 00000 n 
-0000003112 00000 n 
-0000003216 00000 n 
+0000003131 00000 n 
+0000003235 00000 n 
 trailer
 << /Size 8 /Root 1 0 R >>
 startxref
-7067
+7087
 %%EOF

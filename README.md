@@ -15,7 +15,7 @@
 
 ## 🔗 Links de Entrega
 - **Repositório GitHub Oficial:** `https://github.com/Gabriel-Maciel06/devops-cp1-dimdim-azure`
-- **Vídeo de Demonstração (YouTube):** `[COLE SEU LINK DO VIDEO AQUI]`
+- **Vídeo de Demonstração (YouTube):** `https://youtu.be/sOJWAZk0AmU?is=WEzSpdxw0hyJ5_0e`
 - **Documentação Swagger UI (Nuvem Azure):** `http://app-dimdim-rm562795.chilecentral.azurecontainer.io:8080/swagger-ui.html`
 
 ---
